@@ -2,20 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dice game</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Drum example</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <div class="container">
-        <header class="instructions"><p>Roll the dice. Each time you roll, your total is added up. If you manage to score 20 or more you win, but if you roll a 1, you lose!</p></header>
-<div id="score" class="box"><h1>Score screen</h1></div>
-<div id="status" class="box"><h1> Status</h1></div>
-<div id="dice"class="box"><h1>Dice faces</h1></div>
-<button id="clik"class="box"><h3>Click here to begin</h3></button>
-</div>
+    <div id="buttonContainer">
+        <div id="qKey" class="box">
+            <p>Q</p><img id="boom-p" src="images/boom.png" alt="boom">
+        </div>
+        <div id="wKey" class="box">
+            <p>W </p><img id="clap-p"src="images/clap.jpg" alt="clap">
+        </div>
+        <div id="eKey" class="box">
+            <p>E </p><img id="hihat-p"src="images/hihat.png" alt="hihat">
+        </div>
+        <div id="rKey" class="box">
+            <p>R </p><img id="kick-p"src="images/kick.jpg" alt="kick">
+        </div>
+        <div id="tKey" class="box">
+            <p>T </p><img id="openhat-p"src="images/openhat.jpg" alt="openhat">
+        </div>
+        <div id="yKey" class="box">
+            <p>Y </p><img id="ride-p"src="images/ride.jpg" alt="ride">
+        </div>
+        <div id="uKey" class="box">
+            <p>U </p><img id="snare-p"src="images/snare.png" alt="snare">
+        </div>
+        <div id="iKey" class="box">
+            <p>I </p><img id="tink-p"src="images/tink.jpg" alt="tink">
+        </div>
+        <div id="oKey" class="box" id="lastBox">
+            <p>O </p><img id="tom-p"src="images/tom.jpg" alt="tom">
+        </div>
+        
+
+    </div>
+    
+    <audio id="boom" src="sounds/boom.wav"></audio>
+    <audio id="clap" src="sounds/clap.wav"></audio>
+    <audio id="hihat" src="sounds/hihat.wav"></audio>
+    <audio id="kick" src="sounds/kick.wav"></audio>
+    <audio id="openhat" src="sounds/openhat.wav"></audio>
+    <audio id="ride" src="sounds/ride.wav"></audio>
+    <audio id="snare" src="sounds/snare.wav"></audio>
+    <audio id="tink" src="sounds/tink.wav"></audio>
+    <audio id="tom" src="sounds/tom.wav"></audio>
 
 
 
-<script src="apps1.js"></script>
+
+    <script src="script/script1.js"></script>
 </body>
 </html>
